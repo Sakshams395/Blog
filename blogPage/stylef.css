@@ -1,0 +1,48 @@
+/* styling for feedback_form */
+*
+{
+    color: rebeccapurple;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+.fname
+{
+    margin-left: 10px;
+    border: 1px rebeccapurple;
+}
+.fmail
+{
+    margin-left: 4px;
+    border: 1px rebeccapurple solid;
+}
+.f
+{
+    font-size: 20px;
+}
+.fthanks
+{
+    font-size: 70;
+    margin: 240;
+    text-align: center;
+}
+.fshare
+{
+    font-size: 40px;
+    font-weight: 100;
+}
+body
+{
+    background-image: url(8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+input
+{
+    border: 1px solid rebeccapurple;
+}
+h1
+{
+    font-size: 2.2rem;
+}

@@ -1,0 +1,236 @@
+/* universal styling */
+*
+{
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(imgs/8.jpg);
+    scroll-behavior: smooth;
+}
+a
+{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+a:hover
+{
+    color: cornsilk;
+    cursor: crosshair;
+}
+p
+{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+/* front page */
+/* styling for the top navigation bar */
+.navbar-top
+{
+    background-image: url(imgs/10.jpg);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar-top li
+{
+    font-size: 1.7rem;
+    display: inline;
+    margin: 1rem;
+}
+#my_name
+{
+    margin-right: 6rem;
+    color: rebeccapurple;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+/* styling for the front page intro */
+.intro
+{
+    background-image: url(imgs/12.jpg);
+    margin: 3rem;
+}
+
+/* styling for the books section */
+.books
+{
+    margin: 3rem;
+}
+.quote
+{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.book1 img
+{
+    margin-top: 9rem;
+    margin-left: 1.4rem;
+    height: 65%;
+    width: 25%;
+}
+#b1
+{
+    color: rebeccapurple;
+    margin-left: 35rem;
+    margin-top: -15rem;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    display: flex;
+}
+.book2 img
+{
+    margin-top: 15rem;
+    margin-left: 50rem;
+    height: 65%;
+    width: 25%;
+}
+#b2
+{
+    color: rebeccapurple;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    font-style: italic;
+    display: flex;
+    margin-right: 35rem;
+    margin-top: -20rem;
+}
+.book3 img
+{
+    margin-top: 9rem;
+    margin-left: 1.4rem;
+    height: 65%;
+    width: 25%;
+}
+#b3 
+{
+    color: rebeccapurple;
+    margin-left: 35rem;
+    margin-top: -20rem;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    display: flex;
+}
+.book4 img
+{
+    margin-top: 10rem;
+    margin-left: 50rem;
+    height: 65%;
+    width: 25%;
+}
+#b4
+{
+    color: rebeccapurple;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    display: flex;
+    margin-top: -15rem;
+    margin-right: 40rem;    
+}
+.quote2
+{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: 20rem;
+}
+
+/* styling for the movies */
+.m1 img
+{
+    margin-top: 9rem;
+    margin-left: 1.4rem;
+    height: 65%;
+    width: 25%;
+}
+.mq1
+{
+    color: rebeccapurple;
+    margin-left: 35rem;
+    margin-top: -15rem;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    display: flex;
+}
+.m2 img
+{
+    margin-top: 15rem;
+    margin-left: 50rem;
+    height: 65%;
+    width: 25%;
+}
+.mq2
+{
+    color: rebeccapurple;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    font-style: italic;
+    display: flex;
+    margin-right: 35rem;
+    margin-top: -20rem;
+}
+.m3 img
+{
+    margin-top: 9rem;
+    margin-left: 1.4rem;
+    height: 65%;
+    width: 25%;
+}
+.mq3
+{
+    color: rebeccapurple;
+    margin-left: 35rem;
+    margin-top: -20rem;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    display: flex;
+}
+.m4 img
+{
+    margin-top: 8rem;
+    margin-left: 50rem;
+    height: 65%;
+    width: 25%;
+}
+.mq4
+{
+    color: rebeccapurple;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    display: flex;
+    margin-top: -15rem;
+    margin-right: 40rem;
+}
+h3
+{
+    margin-top: 16rem;
+    color: rebeccapurple;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
