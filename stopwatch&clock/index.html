@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="abc/index.css">
+</head>
+<body>
+
+
+
+
+    <div class="current">
+        <h1 class="cd">Current Date</h1>
+        <h2 id="currentDate">    </h2>    
+    </div>
+
+
+
+
+
+
+
+
+    <div class="currentt">
+        <h1 class="ct">Current Time</h1>
+        <h2 id="currentTime"></h2>
+    </div>
+    <div id="stopWatch">
+        <h1 class="sw">Stop Watch</h1>
+        <br>
+        <button id="btn"  onmouseover="mouseOver()" onmouseleave="mouseLeave()" onclick="start()">Start</button>
+        <button id="btn1" onclick="timer()">Set Timer</button>
+        <button id="btn2" >Stop</button>
+        <h2 id="display"></h2>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
